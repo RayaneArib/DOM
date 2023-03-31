@@ -1,7 +1,7 @@
 #shopping-cart {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
   }
   
   .item {
@@ -82,29 +82,6 @@
     font-weight: bold;
   }
   
-/* .heart{
-  width: 20px;
-  height: 20px;
-  transform: rotate(45deg);
-  transform-origin: center;
-  position: relative;
-  background: red;
-  margin: 100px auto;
-}
-.heart::before, .heart::after{
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: red;
-}
-.heart::before{
-  left: -8px;
-}
-.heart::after{
-  top: -8px;
-} */
 #like-button {
   border: none;
   background-color: transparent;
@@ -119,10 +96,6 @@
 #like-button.liked path {
   fill: #FF1493;
 }
-/* svg{
-color:red;
-width:50px;
-} */
 
 .btn:hover{
   cursor: pointer;
